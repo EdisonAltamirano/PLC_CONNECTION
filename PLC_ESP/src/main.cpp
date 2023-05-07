@@ -1,6 +1,7 @@
 #include <Arduino.h>
-// #include <ESP8266WiFi.h>          //https://github.com/esp8266/Arduino
-
+#include <HTTPClient.h>
+#include <WiFiManager.h>
+#include <ModbusIP_ESP8266.h>
 // //needed for library
 // #include <DNSServer.h>
 // #include <ESP8266WebServer.h>
@@ -9,7 +10,7 @@
 
 // #include <ModbusIP_ESP8266.h>
 
-// //////Modbus//////
+// //////Modbus///p///
 // IPAddress remote(10, 22, 231, 238); // Address of Modbus Slave device
 // const int OUTPUTCOUNTOUT = 30;
 // int OUTPUTOFFSETOUT = 30;
